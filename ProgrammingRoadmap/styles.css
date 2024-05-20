@@ -1,11 +1,16 @@
 :root{ 
-    --color1: aquamarine; 
+    --color1: aquamarine;
+    --color2: rgb(226, 226, 226);
 }
 
 *{ 
     /*border: 1px solid black;*/ 
     font-family: monospace; 
     }
+
+body{
+    background-color: var(--color2);
+}
   
 #content-wrapper{ 
     /*border: 1px solid black;*/ 
