@@ -1,9 +1,1 @@
-h1{
-    text-align: center;
-}
-
-#languages{
-    text-align: center;
-    margin-right: 75%;
-    border: 1px solid black;
-}
+:root{ --color1: aquamarine; } * { /*border: 1px solid black;*/ font-family: monospace; } #content-wrapper{ /*border: 1px solid black;*/ } h1{ text-align: center; } #full-stack{ text-align: center; font-size: 130%; } #ph-1,#ph-2{ text-align: center; font-size: 150%; text-decoration: underline; } #languages{ text-align: center; border: 1px solid black; background-color: var(--color1); font-size: 125%; } #lang-title{ text-align: center; } #Frameworks{ text-align: center; margin-top: 1%; border: 1px solid black; background-color: var(--color1); font-size: 125%; }
