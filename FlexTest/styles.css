@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vw;
+    color: rgb(255, 255, 255);
+    background-color:antiquewhite;
+    padding: 24px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(160, 156, 157);
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.item{
+    background-color: rgb(125, 216, 186);
+    padding: 24px;
+    width: fit-content;
+    height: fit-content;
+}
