@@ -1,8 +1,8 @@
-:root {
-     --color1: rgb(0, 0, 255); 
-     --color2: rgb(247, 238, 189); 
-     --color3: #262626; 
-     --color4: #666666; 
+:root { 
+    --color1: rgb(0, 0, 255); 
+    --color2: rgb(247, 238, 189); 
+    --color3: #241e20; 
+    --color4: #666666; 
 }
 
 * {
@@ -10,6 +10,11 @@
     font-family: monospace; 
 }
 
+#header { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
 
 html {
     background: var(--color3);
@@ -68,7 +73,7 @@ a{
     text-decoration: underline; 
 } 
 
-#languages, #Frameworks {
+#languages, #Frameworks { 
     display: flex; 
     flex-direction: row; 
     justify-content: space-evenly; 
@@ -79,14 +84,13 @@ a{
     border: 2px solid white; 
     border-radius: 25px; 
     box-shadow: 5px 10px 10px #888888; 
-    background: linear-gradient(150deg, var(--color1), #509ffa); 
-    font-size: 125%; 
-}
+    background: linear-gradient(150deg, #509ffa, var(--color1), #509ffa); 
+    font-size: 125%; }
 
-div > #Frameworks {
-    background: linear-gradient(150deg, var(--color1), #509ffa); 
-    margin-bottom: 10px; 
-}
+div>#Frameworks {
+     /* background: linear-gradient(150deg, var(--color1), #509ffa); */ 
+     margin-bottom: 10px; 
+    }
 
 #lang-title, #framework { 
     font-size: 150%;
@@ -98,12 +102,27 @@ div > #Frameworks {
     font-size: 110%; 
 }
 
-#html-sect{
+#html-sect { 
     display: flex; 
-    flex-direction: row; 
-    justify-content: space-evenly; 
-    flex-wrap: wrap; 
-    align-items: center; 
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    align-items: center;
     text-align: center;
-    width: 100%; 
-}
+    width: 100%;
+    /* border: 3px solid greenyellow; */ 
+    } 
+
+#html-title, #html-desc, #html-link { 
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 49%;
+    border-radius: 24px;
+    overflow: hidden;*/
+    /* border: 1px solid hotpink; */
+    width: 50%;
+    }
+/* #html-title { 
+    border: 1px solid yellow; 
+} */
