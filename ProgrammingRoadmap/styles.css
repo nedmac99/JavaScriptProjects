@@ -7,7 +7,7 @@
 
 * {
     /* border: 1px solid yellow;  */
-    font-family: monospace; 
+    font-family: Ubuntu, sans-serif;
 }
 
 #header { 
@@ -38,8 +38,9 @@ body {
 }
 
 h1 {
-    font-size: 350%; 
-    text-align: center; 
+    font-family: monospace; 
+    font-size: 450%; 
+    text-align: center;
 }
 
 hr {
@@ -50,13 +51,34 @@ hr {
 }
 
 a{
-    font-size: x-large;
-    color:aquamarine
+    width: 100%; 
+    font-size: x-large; 
+    color: aquamarine;
 }
+
+img {
+    width: 17%; 
+    height: calc(.5vw +1vh); 
+} 
+
+#head-img { 
+    border-radius: 50px;
+    padding:10px 5px 10px;
+    aspect-ratio: 1/1;
+}
+
+/* @media only screen and (width: 965px){
+    h1{
+        width:50%;
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+} */
 
 #full-stack {
     text-align: center; 
     font-size: 200%;
+    font-style: italic;
 }
 
 #phase1,
@@ -71,16 +93,10 @@ a{
 #ph-1,
 #ph-2 {
     text-align: center; 
-    font-size: 175%; 
+    font-size: 200%; 
     text-decoration: underline; 
+    font-weight: bold; 
 } 
-
-#details{
-    display: flex;
-    justify-content: space-evenly;
-    /* border: 2px solid red; */
-    width: 100%;
-}
 
 #languages,
 #Frameworks { 
@@ -105,42 +121,26 @@ div>#Frameworks {
 
 #lang-title,
 #framework { 
-    font-size: 150%;
+    font-size: 175%; 
     font-weight: bold; 
+    text-decoration: underline;
 }
 
 #lang-desc,
 #Frame-desc { 
-    padding: 1% 0 1%; 
+    padding: 1% 1% 1%; 
     font-size: 110%; 
 }
 
-.sect { 
-    display: flex; 
-    align-items: center;
-    text-align: center;
-    width: 100%;
-} 
-
-.title,
-.desc,
-.link{ 
-    /* border: 1px solid hotpink; */
-    width: 50%;
- }
-
  .link{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding-bottom: 10px;
  }
 
  .img{
-    width: 60%;
+    width: 20%;
     border-radius: 50px;
-    padding:10px 0 10px;
+    padding:10px 5px 10px;
     aspect-ratio: 2/1;
  }
 
