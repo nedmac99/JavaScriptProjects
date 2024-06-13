@@ -41,6 +41,17 @@ h1 {
     font-family: monospace; 
     font-size: 450%; 
     text-align: center;
+    animation: fade 4s ease;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
 }
 
 hr {
@@ -54,6 +65,11 @@ a{
     width: 100%; 
     font-size: x-large; 
     color: aquamarine;
+}
+
+.link:hover{
+    transition: transform 0.3s ease-out;
+    transform: translateY(6px);
 }
 
 img {
