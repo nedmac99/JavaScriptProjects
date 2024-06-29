@@ -160,3 +160,11 @@ div>#Frameworks {
     aspect-ratio: 2/1;
  }
 
+@media (min-width: 300px){
+  h1,
+  #ph-1,
+  #ph-2,
+  #full-stack{
+    font-size: 2rem;
+  }
+}
